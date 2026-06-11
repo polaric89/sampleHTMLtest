@@ -1,0 +1,9 @@
+{
+  "id": "customer-info",
+  "name": "Customer Info Card",
+  "description": "Displays key customer account fields — balance, overdue, sales rep, currency — in a clean card layout.",
+  "version": "1.0.0",
+  "icon": "info",
+  "menuLabel": "Account Info",
+  "url": "https://raw.githubusercontent.com/polaric89/sampleHTMLtest/main/customer-info.js"
+}
