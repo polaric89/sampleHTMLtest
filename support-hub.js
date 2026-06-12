@@ -90,33 +90,33 @@
       <div id="cc-sh-list" class="view active">
         <div class="pg-hdr">
           <div class="pg-title">🎧 Support Hub</div>
-          <button class="btn btn-primary" onclick="window._ccSh.showNew()">+ New Case</button>
+          <button type="button" class="btn btn-primary" onclick="window._ccSh.showNew()">+ New Case</button>
         </div>
         <div class="card">
           <div class="card-head">
             Open Cases
             <span id="cc-sh-count" style="font-size:12px;font-weight:400;color:#80868b;margin-left:4px"></span>
-            <button class="btn btn-ghost" style="margin-left:auto;padding:5px 12px;font-size:12px" onclick="window._ccSh.loadCases()">↺ Refresh</button>
+            <button type="button" class="btn btn-ghost" style="margin-left:auto;padding:5px 12px;font-size:12px" onclick="window._ccSh.loadCases()">↺ Refresh</button>
           </div>
           <div id="cc-sh-list-body"><div class="loading"><div class="spinner"></div><br/><br/>Loading cases...</div></div>
         </div>
       </div>
 
       <div id="cc-sh-detail" class="view">
-        <button class="back-btn" onclick="window._ccSh.showList()">← Back to cases</button>
+        <button type="button" class="back-btn" onclick="window._ccSh.showList()">← Back to cases</button>
         <div class="card">
           <div class="card-head" id="cc-sh-detail-title">Case</div>
           <div class="detail-meta" id="cc-sh-detail-meta"></div>
           <div class="thread" id="cc-sh-thread"><div class="loading"><div class="spinner"></div></div></div>
           <div class="reply-box">
             <textarea id="cc-sh-reply-text" placeholder="Type your reply..." rows="3"></textarea>
-            <button class="btn btn-primary" id="cc-sh-reply-btn" onclick="window._ccSh.sendReply()">Send</button>
+            <button type="button" class="btn btn-primary" id="cc-sh-reply-btn" onclick="window._ccSh.sendReply()">Send</button>
           </div>
         </div>
       </div>
 
       <div id="cc-sh-new" class="view">
-        <button class="back-btn" onclick="window._ccSh.showList()">← Back to cases</button>
+        <button type="button" class="back-btn" onclick="window._ccSh.showList()">← Back to cases</button>
         <div class="card">
           <div class="card-head">📝 Submit New Case</div>
           <div class="form-grid">
@@ -139,8 +139,8 @@
               <textarea id="cc-sh-message" rows="5" placeholder="Describe the issue in detail..."></textarea>
             </div>
             <div class="form-actions">
-              <button class="btn btn-ghost" onclick="window._ccSh.showList()">Cancel</button>
-              <button class="btn btn-success" id="cc-sh-submit-btn" onclick="window._ccSh.submitCase()">Submit Case</button>
+              <button type="button" class="btn btn-ghost" onclick="window._ccSh.showList()">Cancel</button>
+              <button type="button" class="btn btn-success" id="cc-sh-submit-btn" onclick="window._ccSh.submitCase()">Submit Case</button>
             </div>
           </div>
         </div>
